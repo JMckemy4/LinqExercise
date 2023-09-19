@@ -31,21 +31,21 @@ namespace LinqExercise
             Console.WriteLine("--------------------------");
 
             //TODO: Order numbers in ascending order and print to the console
-            var orderedAscending = numbers.OrderBy(n => n);
+            var OrderedAscending = numbers.OrderBy(n => n);
             Console.WriteLine("Task 3: Numbers in ascending order:");
             Console.WriteLine("--------------------------");
 
-            foreach (var num in orderedAscending)
+            foreach (var num in OrderedAscending)
             {
                 Console.Write(num + " ");
             }
             Console.WriteLine();
             //TODO: Order numbers in descending order and print to the console
-            var orderedDecsending = numbers.OrderBy(n => -n);
+            var orderedDescending = numbers.OrderByDescending(n => n);
             Console.WriteLine("Task 4: Numbers in decsending order:");
             Console.WriteLine("--------------------------");
 
-            foreach (var num in orderedDecsending)
+            foreach (var num in orderedDescending)
             {
                 Console.Write(num + " ");
             }
